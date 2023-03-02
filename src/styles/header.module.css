@@ -14,3 +14,8 @@
 .title:hover {
     text-decoration: underline;
 }
+.extraAction {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+}

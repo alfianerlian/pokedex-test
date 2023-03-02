@@ -1,0 +1,35 @@
+.filterContainer .filterList {
+    display: none
+}
+.filterContainer:hover .filterList {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 50vh;
+    overflow: scroll;
+    border-radius: 1rem 0 1rem 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border: 1px solid gray;
+}
+.filterContainer:hover .filterButton {
+    background-color: white;
+    color: black;
+}
+.filterButton {
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: white;
+}
+.filterItem {
+    padding: 1rem 1rem;
+    color: black;
+    text-decoration: none;
+}
+.filterItem:hover {
+    background-color: black;
+    color: white;
+}
