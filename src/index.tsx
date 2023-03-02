@@ -5,13 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ApolloProvider } from '@apollo/client';
 import PokemonClient from './network/PokemonClient';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <ApolloProvider client={PokemonClient}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </ApolloProvider>
 );
 

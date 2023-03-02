@@ -1,0 +1,16 @@
+.header {
+    padding: 1rem;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.title {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.title:hover {
+    text-decoration: underline;
+}

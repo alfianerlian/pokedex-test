@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+.imageContainer {
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.imageContainer.small {
+    margin: auto;
+    width: 140px;
+    height: 140px;
+}
+.imageContainer.normal {
+    width: 240px;
+    height: 240px;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.title {
+    color: white;
+    background: black;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 700;
+}
