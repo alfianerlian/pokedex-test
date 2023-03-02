@@ -1,3 +1,4 @@
+import styles from "../styles/pokemonlist.module.css"
 import ThumbnailView from "./ThumbnailView"
 
 interface PokemonListItemProps {
@@ -7,7 +8,9 @@ interface PokemonListItemProps {
 
 function PokemonListItem({ imgUrl, name }: PokemonListItemProps) {
     return <>
-        <ThumbnailView title={name} url={imgUrl} size="normal"/>
+        <a className={styles.item} href={`/${name.toLocaleLowerCase()}`}>
+            <ThumbnailView title={name} url={imgUrl} size="normal"/>
+        </a>
     </>
 }
 
