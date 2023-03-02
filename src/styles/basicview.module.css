@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+.title {
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+}
+.content {
+    padding: 0.5rem 1rem;
+}

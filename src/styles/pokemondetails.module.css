@@ -1,0 +1,49 @@
+.mainContainer {
+    padding: 1rem;
+    padding-top: 5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.leftCol {
+    flex-grow: 1;
+}
+.rightCol {
+    flex-grow: 2;
+}
+.evolutionContainer {
+    display: flex;
+    gap: 1rem;
+}
+.evolutionContainer .imageContainer {
+    width: 120px;
+    height: 120px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.evolutionLink {
+    text-decoration: none;
+}
+.evolutionLink:hover {
+    color: white;
+    text-decoration: underline;
+}
+.name {
+    position: absolute;
+    top: 4rem;
+    background: black;
+    color: white;
+    padding: 1rem 2rem 1rem 1rem;
+    left: 0;
+    border-radius: 0 2rem 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    z-index: 10;
+}
+.mainImageContainer {
+    text-align: center;
+    padding: 2rem;
+}
+.loading {
+    margin: 1rem;
+}

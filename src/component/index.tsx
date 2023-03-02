@@ -1,6 +1,9 @@
+import ListView from "./ListView";
 import ThumbnailView from "./ThumbnailView";
+import BasicView from "./BasicView";
 import Header from "./Header";
+import EvolutionView from "./EvolutionView";
 import PokemonList from "./PokemonList";
 import LoadMoreButton from "./LoadMoreButton";
 
-export { ThumbnailView, Header, PokemonList, LoadMoreButton }
+export { ThumbnailView, ListView, BasicView, Header, EvolutionView, PokemonList, LoadMoreButton }
